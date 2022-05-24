@@ -2,7 +2,23 @@
     margin: 0;
     padding: 0;
 }
-
 header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav.left-link {
+    margin: 15px;
+    padding: 30px;
     
+}
+
+header nav.right-link {
+    justify-content: flex-end;
+}
+
+
+header nav a {
+    text-decoration: none;
+   
 }
