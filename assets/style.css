@@ -42,8 +42,9 @@ header nav a {
     text-decoration: none;
     padding: 15px 20px 15px 20px;
     color: var(--text-color);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Manrope, serif;
     font-size: 2.5rem;
+    font-weight: 400;
 }
 
 header nav .left-link {
@@ -73,9 +74,10 @@ main section .welcome-message {
 
 main section h2,
 main #about p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 1.75rem;
     color: var(--text-color);
+    font-weight: 300;
 }
 
 main #about {
@@ -140,8 +142,8 @@ ul li a {
 }
 
 .big a img {
-    height: 400px;
-    width: 850px;
+    height: 700px;
+    width: 1350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -154,15 +156,24 @@ ul li a {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex: 2 1 600;
+    flex: 2 1 200;
+    margin-top: 80px;
+    margin-left: -220px;
 }
 
 .small a span {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.25rem;
+    font-family: Manrope, sans-serif;
+    font-size: 2.0rem;
     padding: 20px;
-    background-color: bisque;
+    background-color: var(--text-color);
+    
 
+}
+span {
+    /* position: absolute; */
+    position: relative;
+    bottom: 50px;
+    right: -225px;
 }
 
 .small li {
@@ -170,14 +181,19 @@ ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    
 
 }
 
 .small a img {
-    height: 300px;
-    width: 600px;
+    position: inline-block;
+    height: 400px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 
-    padding: 30px;
 }
 
 #about {
