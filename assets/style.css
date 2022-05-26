@@ -1,7 +1,7 @@
 :root {
-    --blackish: #232522;
+    --blackish: #1f201e;
     --text-color: #F4F2F3;
-    --neon: #77966D;
+    --neon: #06ff3c;
 }
 
 * {
@@ -67,15 +67,13 @@ main .welcome {
     justify-content: space-evenly;
     padding: 25px;
     flex-wrap: wrap;
-    fon
+   
 }
 
 main section .welcome-message {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
 }
 
 main section h2,
@@ -121,14 +119,27 @@ ul li a {
     padding-bottom: 40px;
     font-size: 2.5rem;
     text-align: center;
+    font-weight: 300;
+    text-shadow:
+        0 0 9px var(--text-color),
+        0 0 13px var(--text-color),
+        0 0 24px var(--text-color),
+        0 0 48px var(--neon),
+        0 0 96px var(--neon),
+        0 0 108px var(--neon),
+        0 0 160px var(--neon);
 
 }
+.big li {
+    list-style: none;
+    text-align: center;
 
+}
 .big li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.25rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.75rem;
     font-weight: 300;
-
+    color: var(--text-color);
 }
 
 .big a img {
@@ -198,6 +209,15 @@ ul li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     font-size: 3.2rem;
+    margin-bottom: 50px;
+    text-shadow:
+    0 0 9px var(--text-color),
+    0 0 13px var(--text-color),
+    0 0 24px var(--text-color),
+    0 0 48px var(--neon),
+    0 0 96px var(--neon),
+    0 0 108px var(--neon),
+    0 0 160px var(--neon);
 }
 
 #contact-list ul {
