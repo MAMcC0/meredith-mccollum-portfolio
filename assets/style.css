@@ -204,7 +204,7 @@ ul li a {
         0 0 96px var(--neon),
         0 0 108px var(--neon),
         0 0 160px var(--neon);
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 #contact-list ul {
@@ -212,7 +212,7 @@ ul li a {
     flex-direction: row;
     justify-content: space-evenly;
     flex: 1 0 300;
-    margin-left: 65px;
+    margin-left: 80px;
 }
 
 #contact-list li {
@@ -227,6 +227,7 @@ ul li a {
 
 #contact-list a {
     color: var(--text-color);
+    padding-bottom: 50px;
 }
 
 #work {
