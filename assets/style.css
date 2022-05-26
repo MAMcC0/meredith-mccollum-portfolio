@@ -255,3 +255,14 @@ ul li a {
     height: 500px;
     width: 500px;
 }
+
+a:hover {
+    text-shadow:
+    0 0 9px var(--text-color),
+    0 0 13px var(--text-color),
+    0 0 24px var(--text-color),
+    0 0 48px var(--neon),
+    0 0 96px var(--neon),
+    0 0 108px var(--neon),
+    0 0 160px var(--neon);
+}
