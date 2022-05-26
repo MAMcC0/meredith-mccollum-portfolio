@@ -1,6 +1,13 @@
+:root {
+    --blackish: #232522;
+    --text-color: #F4F2F3;
+    --neon: #77966D;
+}
+
 * {
     margin: 0;
     padding: 0;
+    background-color: var(--blackish);
 
 }
 /*To make it so 1 rem is 10px*/
@@ -10,17 +17,19 @@ html{
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.5rem;
+    color: var(--neon);
 }
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    background-color: var(--blackish);
 }
 
 header nav a {
     text-decoration: none;
     padding: 15px 20px 15px 20px;
-    color: black;
+    color: var(--text-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.5rem;
 }
@@ -52,11 +61,13 @@ main section .welcome-message {
     display: flex;
     flex-direction: column;
     justify-content:center;
+    
 }
 
 main section h2, main .about p  {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.75rem;
+    color: var(--text-color);
 }
 
 main .about {
@@ -71,6 +82,10 @@ ul li a {
     list-style: none;
     text-decoration: none;
     color: black;
+}
+.about{
+    padding: 20px;
+    margin: 40px;
 }
 .about-paragraph{
     display: flex;
@@ -89,7 +104,12 @@ ul li a {
     text-align: center;
     
 }
-
+.big li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 300;
+    
+}
 .big a img {
     height: 400px;
     width: 850px;
@@ -106,12 +126,18 @@ ul li a {
     flex-wrap: wrap;
     flex: 2 1 600;
 }
-.small a{
+.small a span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.25rem;
+    padding: 20px;
+    background-color: bisque;
+    
 }
 .small li {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    
 }
 
@@ -119,7 +145,11 @@ ul li a {
     height: 300px;
     width: 600px;
   
-    padding: ;
+    padding: 30px ;
+}
+.work {
+    margin: 40px;
+    padding: 20px;
 }
 
 .work h2 {
