@@ -156,7 +156,7 @@ ul li a {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex: 2 1 200;
+    flex: 2 1 400;
     margin-top: 80px;
     margin-left: -220px;
 }
@@ -165,7 +165,8 @@ ul li a {
     font-family: Manrope, sans-serif;
     font-size: 2.0rem;
     padding: 20px;
-    background-color: var(--text-color);
+    background-color: var(--blackish);
+    color: var(--text-color);
     
 
 }
@@ -187,7 +188,7 @@ span {
 }
 
 .small a img {
-    position: inline-block;
+    position: block;
     height: 400px;
     width: 500px;
     margin-left: auto;
