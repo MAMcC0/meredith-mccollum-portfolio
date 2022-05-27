@@ -136,7 +136,9 @@ ul li a {
     padding-bottom: 50px;
 }
 
-/* stylizes h2 in about me section including adding glow effect */
+/* stylizes h2 in about me section including adding glow effect,
+ Glow effect adapted from Silvia O'Dwyer on CSS-Tricks
+ website here: https://css-tricks.com/how-to-create-neon-text-with-css/ , accessed May 2022*/
 .header-about-me h2 {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -146,7 +148,7 @@ ul li a {
     text-shadow:
         0 0 9px var(--text-color),
         0 0 13px var(--text-color),
-        0 0 24px var(--text-color),
+        0 0 27px var(--neon),
         0 0 48px var(--neon),
         0 0 96px var(--neon),
         0 0 108px var(--neon),
@@ -199,7 +201,9 @@ ul li a {
     font-weight: 200;
 
 }
-/* stylizations for h3 and glow effect in contacts section */
+/* stylizations for h3 and glow effect in contacts section 
+Glow effect adapted from Silvia O'Dwyer on CSS-Tricks
+ website here: https://css-tricks.com/how-to-create-neon-text-with-css/ , accessed May 2022*/
 #contact h3 {
     font-size: 2.75rem;
     text-align: center;
@@ -209,7 +213,7 @@ ul li a {
     text-shadow:
         0 0 9px var(--text-color),
         0 0 13px var(--text-color),
-        0 0 24px var(--text-color),
+        0 0 27px var(--neon),
         0 0 48px var(--neon),
         0 0 96px var(--neon),
         0 0 108px var(--neon),
@@ -254,7 +258,7 @@ ul li a {
     text-shadow:
         0 0 9px var(--text-color),
         0 0 13px var(--text-color),
-        0 0 24px var(--text-color),
+        0 0 27px var(--neon),
         0 0 48px var(--neon),
         0 0 96px var(--neon),
         0 0 108px var(--neon),
@@ -265,12 +269,14 @@ ul li a {
     height: 500px;
     width: 500px;
 }
-/* allows for glow effect for links on hover */
+/* allows for glow effect for links on hover 
+Glow effect adapted from Silvia O'Dwyer on CSS-Tricks
+ website here: https://css-tricks.com/how-to-create-neon-text-with-css/ , accessed May 2022*/
 a:hover {
     text-shadow:
         0 0 9px var(--text-color),
         0 0 13px var(--text-color),
-        0 0 24px var(--text-color),
+        0 0 27px var(--neon),
         0 0 48px var(--neon),
         0 0 96px var(--neon),
         0 0 108px var(--neon),

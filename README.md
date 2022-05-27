@@ -20,3 +20,8 @@ Live Website: https://mamcc0.github.io/meredith-mccollum-portfolio/
 ![Screenshots of working portfolio app](./assets/screenie-2.png)
 ![Screenshots of working portfolio app](./assets/screenie-3.png)
 ![Screenshots of working portfolio app](./assets/screenie-4.png)
+
+## Credits
+
+The glow effect was adapted from a neon tutorial from Silvia O'Dwyer on CSS-Tricks
+ website here: https://css-tricks.com/how-to-create-neon-text-with-css/ , accessed May 2022
