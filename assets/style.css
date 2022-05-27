@@ -10,13 +10,13 @@
     background-color: var(--blackish);
 }
 
+footer {
+    padding: 20px;
+}
+
 /*To make it so 1 rem is 10px*/
 html {
     font-size: 62.5%;
-}
-
-footer {
-    padding: 20px;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h5 {
     font-size: 1.75rem;
     font-weight: 300;
 }
-
+/* creation of header flexbox */
 header nav {
     display: flex;
     justify-content: space-between;
@@ -49,22 +49,23 @@ header nav a {
     font-size: 2.5rem;
     font-weight: 400;
 }
-
+/* moves the .left-link class in the nav bar to the left */
 header nav .left-link {
     padding-right: 15px;
 }
+/* moves the .right-link class in the nav bar to the right */
 
 header nav .right-link {
     justify-content: flex-end;
     padding-left: 15px;
 }
-
+/* avatar drawing dimensions */
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-
+/* establishes welcome message as a flex to center it on left side */
 main section .welcome-message {
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@ main section .welcome-message {
     font-size: 3.75rem;
 }
 
-
+/* main section stylization */
 main section h2,
 main #about p {
     font-family: Manrope, sans-serif;
@@ -80,7 +81,7 @@ main #about p {
     color: var(--text-color);
     font-weight: 300;
 }
-
+/* establishes about id as a flex to center items on page */
 main #about {
     display: flex;
     flex-direction: column;
@@ -88,43 +89,32 @@ main #about {
     padding: 50px 20px 50px 20px;
     flex-wrap: wrap;
 }
-
+/* establishes flexbox for welcome message and avatar image */
 main #welcome {
     display: flex;
     justify-content: space-evenly;
     padding: 25px;
     flex-wrap: wrap;
 }
-
+/* allows label for small links to stay in position to the img */
+span {
+    position: relative;
+    bottom: 50px;
+    right: -225px;
+}
 
 ul li a {
     list-style: none;
     text-decoration: none;
     color: black;
 }
-
+/* centers paragraph on site */
 .about-paragraph {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.header-about-me h2 {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 300;
-    text-shadow:
-        0 0 9px var(--text-color),
-        0 0 13px var(--text-color),
-        0 0 24px var(--text-color),
-        0 0 48px var(--neon),
-        0 0 96px var(--neon),
-        0 0 108px var(--neon),
-        0 0 160px var(--neon);
-}
-
+/* big image in works stylization */
 .big {
     text-align: center;
 }
@@ -146,6 +136,23 @@ ul li a {
     padding-bottom: 50px;
 }
 
+/* stylizes h2 in about me section including adding glow effect */
+.header-about-me h2 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 300;
+    text-shadow:
+        0 0 9px var(--text-color),
+        0 0 13px var(--text-color),
+        0 0 24px var(--text-color),
+        0 0 48px var(--neon),
+        0 0 96px var(--neon),
+        0 0 108px var(--neon),
+        0 0 160px var(--neon);
+}
+/* establishes flex for small work items */
 .small {
     display: flex;
     flex-direction: row;
@@ -165,12 +172,6 @@ ul li a {
     color: var(--text-color);
     top: 50px;
     left: 30px;
-}
-
-span {
-    position: relative;
-    bottom: 50px;
-    right: -225px;
 }
 
 .small div {
@@ -198,7 +199,7 @@ span {
     font-weight: 200;
 
 }
-
+/* stylizations for h3 and glow effect in contacts section */
 #contact h3 {
     font-size: 2.75rem;
     text-align: center;
@@ -264,7 +265,7 @@ span {
     height: 500px;
     width: 500px;
 }
-
+/* allows for glow effect for links on hover */
 a:hover {
     text-shadow:
         0 0 9px var(--text-color),
@@ -324,7 +325,6 @@ a:hover {
 
 
 }
-
 
 /* Small smartphones */
 @media screen and (max-width: 576px) {
