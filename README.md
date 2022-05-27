@@ -6,8 +6,9 @@ This portfolio was created to showcase my own best works for future employment a
 
 ## Technology 
 This portfolio is built soley on:
-  --HTML
-  --CSS
+
+HTML, 
+CSS
 
 ## Links:
  Github Repository: https://github.com/MAMcC0/meredith-mccollum-portfolio
