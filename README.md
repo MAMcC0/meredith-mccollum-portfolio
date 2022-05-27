@@ -13,3 +13,9 @@ This portfolio is built soley on:
  Github Repository: https://github.com/MAMcC0/meredith-mccollum-portfolio
 
 Live Website: https://mamcc0.github.io/meredith-mccollum-portfolio/
+
+
+![Screenshots of working portfolio app](./assets/screenie-1.png)
+![Screenshots of working portfolio app](./assets/screenie-2.png)
+![Screenshots of working portfolio app](./assets/screenie-3.png)
+![Screenshots of working portfolio app](./assets/screenie-4.png)
