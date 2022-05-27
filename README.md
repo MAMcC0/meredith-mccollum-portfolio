@@ -10,4 +10,6 @@ This portfolio is built soley on:
   --CSS
 
 ## Links:
- 
+ Github Repository: https://github.com/MAMcC0/meredith-mccollum-portfolio
+
+Live Website: https://mamcc0.github.io/meredith-mccollum-portfolio/
